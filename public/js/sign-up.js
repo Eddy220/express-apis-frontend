@@ -47,7 +47,7 @@ signUpForm.addEventListener("submit", async (e) => {
         errorsHtml = errors.map(
           (message) => `
           <div class="alert alert-danger">
-              ${message}
+              ${message.message}
           </div>
         `
         );
